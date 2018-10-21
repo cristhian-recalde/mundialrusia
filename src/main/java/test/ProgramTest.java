@@ -22,6 +22,13 @@ public class ProgramTest {
         return Float.floatToIntBits(a) == Float.floatToIntBits(b);
     }
 
+    public static boolean compare2(float a, float b) {
+        if (a < b || b < a) {
+            return false;
+        }
+        return Float.floatToIntBits(a) == Float.floatToIntBits(b);
+    }
+
     private int latb() {
         return 0;
     }
