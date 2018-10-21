@@ -22,7 +22,9 @@ public class ProgramTest {
         return Float.floatToIntBits(a) == Float.floatToIntBits(b);
     }
 
-
+    private int latb() {
+        return 0;
+    }
 
     // #2
 
