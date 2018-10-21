@@ -22,6 +22,8 @@ public class ProgramTest {
         return Float.floatToIntBits(a) == Float.floatToIntBits(b);
     }
 
+
+
     // #2
 
     /**
